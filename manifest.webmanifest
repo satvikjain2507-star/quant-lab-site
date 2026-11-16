@@ -1,15 +1,27 @@
 {
+  "id": "/quant-lab-site/",
   "name": "Quant Lab",
   "short_name": "Quant Lab",
-  "description": "Paper portfolios run by machine-learning models, tracked day by day. Not investment advice.",
-  "start_url": ".",
-  "scope": ".",
+  "description": "A live, honest scoreboard for AI stock-picking: paper portfolios run by machine-learning models, with live prices. Not investment advice.",
+  "start_url": "/quant-lab-site/",
+  "scope": "/quant-lab-site/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#080b12",
   "theme_color": "#080b12",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["finance", "education"],
+  "prefer_related_applications": false,
   "icons": [
-    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
-    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
     {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "screenshots": [
+    {"src": "screenshot-1.jpg", "sizes": "1082x2163", "type": "image/jpeg", "form_factor": "narrow", "label": "Portfolios with live profit and loss"},
+    {"src": "screenshot-2.jpg", "sizes": "1082x2163", "type": "image/jpeg", "form_factor": "narrow", "label": "Scoreboard: every model against Equal weight"},
+    {"src": "screenshot-3.jpg", "sizes": "1082x2163", "type": "image/jpeg", "form_factor": "narrow", "label": "Check a stock: the model's rank and reasons"},
+    {"src": "screenshot-wide.jpg", "sizes": "1920x1200", "type": "image/jpeg", "form_factor": "wide", "label": "Quant Lab dashboard"}
   ]
 }
